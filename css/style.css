@@ -21,7 +21,7 @@ a {
   text-decoration: none;
   font: 700 1.5rem 'Poppins', sans-serif;
   color: var(--secondColor);
-  padding: 7%;
+  padding: 03%;
 
   text-align: center;
 }
@@ -38,7 +38,7 @@ header {
 }
 .menu {
   display: flexbox;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   height: 100%;
   align-items: center;
@@ -60,13 +60,15 @@ html {
 }
 .imgDeco {
   height: 98%;
-  width: 32%;
+  width: 30%;
   margin-left: 1%;
   align-items: center;
+  padding: 0rem;
 }
 .block {
   height: 100%;
-  display: block;
+  display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -90,7 +92,7 @@ img {
   background-color: var(--smokeColor);
   color: var(--secondColor);
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.2rem;
   text-align: center;
   width: 98%;
   font: 400 1.5rem 'DM Sans', sans-serif;
@@ -105,6 +107,59 @@ img {
   color: var(--baseColor);
 }
 .divider {
-  height: 1px;
-  background: linear-gradient(27deg, whitesmoke, black);
+  height: 10px;
+  background: linear-gradient(27deg, black, white);
+}
+.divdiv {
+  padding: 2rem;
+}
+.buttons {
+  padding: 1rem;
+}
+.historias {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  padding: 1rem;
+}
+.fotoHistoria {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  padding: 1%;
+}
+.paragrafo {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  font: 700 120% 'DM Sans', sans-serif;
+  padding: 8%;
+}
+.dividerblock {
+  height: 5px;
+  background: black;
+}
+.titulo {
+  text-align: center;
+  font: 700 420% 'Poppins', sans-serif;
+  text-decoration: underline;
+}
+.contatos {
+  padding: 2rem;
+}
+.contactsimgsdouble {
+  width: 48%;
+  border-radius: 2rem;
+  padding: 0rem;
+}
+.contactsimgsonce {
+  width: 98%;
+  border-radius: 2rem;
+  padding: 0rem;
+}
+.social {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
 }
