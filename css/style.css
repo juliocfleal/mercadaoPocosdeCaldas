@@ -36,12 +36,19 @@ header {
   text-align: center;
   background-color: var(--baseColor);
 }
+footer i {
+  font-size: 2rem;
+  color: var(--text-color-light);
+}
 .menu {
   display: flexbox;
   justify-content: space-between;
   width: 100%;
   height: 100%;
   align-items: center;
+}
+.menu .title {
+  font-size: 1.3rem;
 }
 html {
   scroll-behavior: smooth;
@@ -130,11 +137,11 @@ img {
   padding: 1%;
 }
 .paragrafo {
-  width: 50%;
+  width: 100%;
   height: 50%;
   text-align: center;
-  font: 700 100% 'DM Sans', sans-serif;
-  padding: 8%;
+  font: 300 1rem 'DM Sans', sans-serif;
+  padding: 0%;
 }
 .dividerblock {
   height: 5px;
@@ -142,17 +149,12 @@ img {
 }
 .titulo {
   text-align: center;
-  font: 700 'Poppins', sans-serif;
-  font-size: 400%;
+  font: 500 'Poppins', sans-serif;
+  font-size: 3rem;
   text-decoration: underline;
 }
 .contatos {
   padding: 2rem;
-}
-.contactsimgsdouble {
-  width: 48%;
-  border-radius: 2rem;
-  padding: 0rem;
 }
 .contactsimgsonce {
   width: 98%;
@@ -163,4 +165,45 @@ img {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+/* Responsividade */
+@media (min-width: 992px) {
+  .paragrafo {
+    padding: 8%;
+    font: 700 3rem 'DM Sans', sans-serif;
+  }
+  footer i {
+    font-size: 6rem;
+    color: var(--text-color-light);
+  }
+  .titulo {
+    text-align: center;
+    font: 700 'Poppins', sans-serif;
+    font-size: 650%;
+    text-decoration: underline;
+  }
+  .menu .title {
+    font-size: 4.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .paragrafo {
+    padding: 8%;
+    font: 700 3.5rem 'DM Sans', sans-serif;
+  }
+  footer i {
+    font-size: 6rem;
+    color: var(--text-color-light);
+  }
+  .titulo {
+    text-align: center;
+    font: 700 'Poppins', sans-serif;
+    font-size: 850%;
+    text-decoration: underline;
+  }
+  .menu .title {
+    font-size: 5.2rem;
+  }
 }
